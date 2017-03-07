@@ -36,3 +36,4 @@ BEGIN
           WHERE address LIKE '%' || address_in || '%';
    END IF;
 END open_site_list;
+/
